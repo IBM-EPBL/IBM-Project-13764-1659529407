@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://media.istockphoto.com/id/1223049477/photo/covid-19-hacker-scam.jpg?s=612x612&w=0&k=20&c=eSaM425g0gnwSvQJ7Et0WrjlUVySEU9vHEz9apZdmGQ=");
+    height : 100vh;
+    -webkit-background-size : cover ;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:white;
+    text-decoration:solid ;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+.nav-area li a:hover{
+    background: rgb(231, 219, 219);
+    color: rgb(197, 21, 21);
+}
+.logo img{
+    width: 100px;
+    float:right;
+    height:auto;
+    
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border:1px solid #fff ;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: whitesmoke;
+}
+.welcome-text a:hover{
+    background: white;
+    color:rgb(197, 21, 21);
+}

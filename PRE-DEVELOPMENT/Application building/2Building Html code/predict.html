@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict_page</title>
+    <link rel="stylesheet" href="../static/predict.css">
+</head>
+<body>
+    <img src="https://learn.g2.com/hubfs/_learn-cyber-attack@2x.png" width="60%" height="auto" style="margin: 0 20%;">
+    <div class="predictcontainer" style="margin: 150px 0 0 500px;">
+        
+        <h3>This site will help you to check whether the website is Phishing or not </h3>
+        <form style="align-items: center;" action="/predict" method="post">
+            <input name="url" type="url" placeholder="please enter URL">
+            <input name="submit" type="submit" value="predict">
+            <h1>The predicted URL </h1>
+            <h1>{{pred_text}}</h1>
+            <h4>{{ url }}</h4>
+            <a href="/">Go Back</a>
+            </form>
+    </div>
+</body>
+</html>
