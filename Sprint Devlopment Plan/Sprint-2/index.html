@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            ABOUT PAGE
+        </title>
+        <link rel="stylesheet" href="../static/desker.css">
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="https://png.pngtree.com/png-clipart/20210722/ourlarge/pngtree-hacker-light-effect-network-logo-png-image_3617617.jpg" alt="#">
+                </div>
+                <ul class="nav-area">
+                    <li><a href="{{ url_for('sign_up_page') }}">Login</a></li>
+                    <li><a href="{{ url_for('aboutpage')}}">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li>
+                    <a href="#" title="
+                    1. Login into the page
+                    2.After the login , click get started 
+                    3.Paste the link and click predict
+                    4. Results will be display" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="">How to use</a></li>
+                    
+                </ul>
+            </div>
+            <div class="welcome-text">
+                <h1 style="color: white;">Web Phishing Detection</h1>
+                <a href="{{url_for('predict')}}">Get Started</a>
+            </div>
+        </header>
+    </body>
+
+</html>
+
+
+
+
+

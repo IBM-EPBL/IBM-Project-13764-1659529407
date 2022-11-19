@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title> LOGIN AND REGISTERATION</title>
+    <link rel="stylesheet" href="../static/style2.css">
+
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+           
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()"> LOGIN</button>
+                <button type="button" class="toggle-btn" onclick="register()">  REGISTER</button>
+            </div>
+    
+            <div class="social-icons">
+                <img src="../Images file/gp.png">
+                <img src="../Images file/fb.png">
+                <img src="../Images file/tw.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="Submit" class="Submit-btn">LOG IN</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email Id" class="input-field" placeholder="email" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="Submit" class="Submit-btn">Register</button>
+            </form>
+        </div> 
+        
+    </div>
+    <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("register")
+        var z = document.getElementById("btn")
+
+        function register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="480px";
+            z.style.left="0px";
+
+        }
+    </script>
+   
+
+
+
+</body>
+</html>
